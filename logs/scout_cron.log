@@ -575,3 +575,20 @@ ModuleNotFoundError: No module named 'requests'
 [2026-03-27 06:34:58] 開始執行: RSS 產生器
 [2026-03-27 06:35:15] ✅ RSS 產生器 完成
 [2026-03-27 06:35:15] 執行 Git 推送...
+[2026-03-27 06:35:16] ❌ Git 推送失敗: error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+[2026-03-27 06:35:16] ⚠️ 缺少 Telegram 設定
+[2026-03-27 06:35:16] === 四合一情報偵查報告完成 ===
+[2026-03-27 06:35:35] === 四合一情報偵查報告開始 ===
+[2026-03-27 06:35:35] 開始執行: scout_miaoli.py (苗栗 RSS)
+[2026-03-27 06:35:36] ✅ scout_miaoli.py (苗栗 RSS) 完成
+[2026-03-27 06:35:36] 開始執行: scout_taichung.py (台中 Web)
+[2026-03-27 06:35:37] ✅ scout_taichung.py (台中 Web) 完成
+[2026-03-27 06:35:37] 開始執行: scout_keelung.py (基隆 Web)
+[2026-03-27 06:35:37] ✅ scout_keelung.py (基隆 Web) 完成
+[2026-03-27 06:35:37] 開始執行: scout_ntpc.py (新北 Web)
+[2026-03-27 06:35:51] ✅ scout_ntpc.py (新北 Web) 完成
+[2026-03-27 06:35:51] 開始執行: RSS 產生器
+[2026-03-27 06:36:06] ✅ RSS 產生器 完成
+[2026-03-27 06:36:06] 執行 Git 推送...

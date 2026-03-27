@@ -65,7 +65,7 @@ def git_push():
         
         # Push
         result = subprocess.run(
-            ['git', 'push', 'origin', 'main'],
+            ['git', 'push', 'origin', 'master'],
             cwd="/home/node/.openclaw/workspace",
             capture_output=True,
             text=True,
