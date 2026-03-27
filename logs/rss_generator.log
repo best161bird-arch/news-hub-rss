@@ -1,0 +1,533 @@
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 329, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 251, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 89, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 451, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 318, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 89, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 451, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 318, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 89, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 384, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 296, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 91, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+=== HEARTBEAT 完成 ===

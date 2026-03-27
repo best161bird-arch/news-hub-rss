@@ -1,0 +1,9 @@
+[Unit]
+Description=四合一情報偵察定時器 (每小時 07:00-22:00)
+
+[Timer]
+OnCalendar=*-*-* 07:00-22:00/1:03:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

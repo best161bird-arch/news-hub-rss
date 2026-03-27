@@ -1,0 +1,577 @@
+=== 四合一情報偵察開始 ===
+Thu Mar 26 07:03:01 UTC 2026
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+=== 四合一情報偵察完成 ===
+=== 情報偵查報告開始 ===
+Thu Mar 26 08:00:43 UTC 2026
+==================================================
+三合一情報偵查兵 (輕量化版)
+==================================================
+
+[0] 檢查現有標題...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 658, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/external_scout.py", line 542, in main
+    existing_titles = get_existing_titles()
+  File "/home/node/.openclaw/workspace/external_scout.py", line 48, in get_existing_titles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/external_scout.py", line 43, in get_gs_client
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_json, scope)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 251, in from_json_keyfile_dict
+    return cls._from_parsed_json_keyfile(keyfile_dict, scopes,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                         token_uri=token_uri,
+                                         ^^^^^^^^^^^^^^^^^^^^
+                                         revoke_uri=revoke_uri)
+                                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 185, in _from_parsed_json_keyfile
+    signer = crypt.Signer.from_string(private_key_pkcs8_pem)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/_pure_python_crypt.py", line 182, in from_string
+    raise ValueError('No key could be detected.')
+ValueError: No key could be detected.
+============================================================
+四合一情報偵查兵 - 新北市政府模組 (修正版)
+============================================================
+
+[1] 抓取新北市政府新聞...
+    🌐 抓取新北市政府新聞...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 325, in main
+    articles = scrape_ntpc_news()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 148, in scrape_ntpc_news
+    existing_links = get_existing_links()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 51, in get_existing_links
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 46, in get_gs_client
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_json, scope)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 251, in from_json_keyfile_dict
+    return cls._from_parsed_json_keyfile(keyfile_dict, scopes,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                         token_uri=token_uri,
+                                         ^^^^^^^^^^^^^^^^^^^^
+                                         revoke_uri=revoke_uri)
+                                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 185, in _from_parsed_json_keyfile
+    signer = crypt.Signer.from_string(private_key_pkcs8_pem)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/_pure_python_crypt.py", line 182, in from_string
+    raise ValueError('No key could be detected.')
+ValueError: No key could be detected.
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 365, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 282, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 101, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 97, in get_gs_client
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_json, scope)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 251, in from_json_keyfile_dict
+    return cls._from_parsed_json_keyfile(keyfile_dict, scopes,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                         token_uri=token_uri,
+                                         ^^^^^^^^^^^^^^^^^^^^
+                                         revoke_uri=revoke_uri)
+                                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/service_account.py", line 185, in _from_parsed_json_keyfile
+    signer = crypt.Signer.from_string(private_key_pkcs8_pem)
+  File "/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages/oauth2client/_pure_python_crypt.py", line 182, in from_string
+    raise ValueError('No key could be detected.')
+ValueError: No key could be detected.
+=== 情報偵查報告完成 ===
+=== 情報偵查報告開始 ===
+Thu Mar 26 08:01:28 UTC 2026
+==================================================
+三合一情報偵查兵 (輕量化版)
+==================================================
+
+[0] 檢查現有標題...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 658, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/external_scout.py", line 542, in main
+    existing_titles = get_existing_titles()
+  File "/home/node/.openclaw/workspace/external_scout.py", line 48, in get_existing_titles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/external_scout.py", line 41, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+============================================================
+四合一情報偵查兵 - 新北市政府模組 (修正版)
+============================================================
+
+[1] 抓取新北市政府新聞...
+    🌐 抓取新北市政府新聞...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 325, in main
+    articles = scrape_ntpc_news()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 148, in scrape_ntpc_news
+    existing_links = get_existing_links()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 51, in get_existing_links
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 44, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 365, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 282, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 101, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+=== 情報偵查報告完成 ===
+[2026-03-26 08:02:55] === 情報偵查報告開始 ===
+[2026-03-26 08:02:55] 開始執行: 苗栗/台中/基隆偵察
+=== 情報偵查報告開始 ===
+Thu Mar 26 08:03:01 UTC 2026
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+苗栗/台中/基隆偵察完成
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+新北偵察完成
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+RSS 產生完成
+=== 情報偵查報告完成 ===
+[2026-03-26 08:03:01] === 情報偵查報告開始 ===
+[2026-03-26 08:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 08:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] 開始執行: 新北市偵察
+[2026-03-26 08:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] 開始執行: RSS 產生
+[2026-03-26 08:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] === 情報偵查報告完成 ===
+[2026-03-26 08:03:01] === 情報偵查報告開始 ===
+[2026-03-26 08:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 08:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] 開始執行: 新北市偵察
+[2026-03-26 08:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] 開始執行: RSS 產生
+[2026-03-26 08:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 08:03:01] === 情報偵查報告完成 ===
+[2026-03-26 08:03:29] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 08:03:29] 開始執行: 新北市偵察
+[2026-03-26 08:03:54] ✅ 新北市偵察 完成
+[2026-03-26 08:03:54] 開始執行: RSS 產生
+[2026-03-26 08:04:12] ✅ RSS 產生 完成
+[2026-03-26 08:04:12] === 情報偵查報告完成 ===
+[2026-03-26 09:03:01] === 情報偵查報告開始 ===
+[2026-03-26 09:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 09:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] 開始執行: 新北市偵察
+[2026-03-26 09:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] 開始執行: RSS 產生
+[2026-03-26 09:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] === 情報偵查報告完成 ===
+[2026-03-26 09:03:01] === 情報偵查報告開始 ===
+[2026-03-26 09:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 09:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] 開始執行: 新北市偵察
+[2026-03-26 09:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] 開始執行: RSS 產生
+[2026-03-26 09:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 09:03:01] === 情報偵查報告完成 ===
+[2026-03-26 10:03:01] === 情報偵查報告開始 ===
+[2026-03-26 10:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 10:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] 開始執行: 新北市偵察
+[2026-03-26 10:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] 開始執行: RSS 產生
+[2026-03-26 10:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] === 情報偵查報告完成 ===
+[2026-03-26 10:03:01] === 情報偵查報告開始 ===
+[2026-03-26 10:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 10:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] 開始執行: 新北市偵察
+[2026-03-26 10:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] 開始執行: RSS 產生
+[2026-03-26 10:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 10:03:01] === 情報偵查報告完成 ===
+[2026-03-26 10:54:35] === 情報偵查報告開始 ===
+[2026-03-26 10:54:35] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 10:55:18] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 10:55:18] 開始執行: 新北市偵察
+[2026-03-26 10:55:34] ✅ 新北市偵察 完成
+[2026-03-26 10:55:34] 開始執行: RSS 產生
+[2026-03-26 10:55:51] ✅ RSS 產生 完成
+[2026-03-26 10:55:51] === 情報偵查報告完成 ===
+[2026-03-26 11:03:01] === 情報偵查報告開始 ===
+[2026-03-26 11:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 11:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] 開始執行: 新北市偵察
+[2026-03-26 11:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] 開始執行: RSS 產生
+[2026-03-26 11:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] === 情報偵查報告完成 ===
+[2026-03-26 11:03:01] === 情報偵查報告開始 ===
+[2026-03-26 11:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 11:03:01] ⚠️ 苗栗/台中/基隆偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] 開始執行: 新北市偵察
+[2026-03-26 11:03:01] ⚠️ 新北市偵察 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/external_scout_ntpc.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] 開始執行: RSS 產生
+[2026-03-26 11:03:01] ⚠️ RSS 產生 有警告: Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+[2026-03-26 11:03:01] === 情報偵查報告完成 ===
+[2026-03-26 11:27:55] === 情報偵查報告開始 ===
+[2026-03-26 11:27:55] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 11:28:35] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 11:28:35] 開始執行: 新北市偵察
+[2026-03-26 11:28:49] ✅ 新北市偵察 完成
+[2026-03-26 11:28:49] 開始執行: RSS 產生
+[2026-03-26 11:29:07] ✅ RSS 產生 完成
+[2026-03-26 11:29:07] === 情報偵查報告完成 ===
+[2026-03-26 12:00:57] === 情報偵查報告開始 ===
+[2026-03-26 12:00:57] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 12:01:35] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 12:01:35] 開始執行: 新北市偵察
+[2026-03-26 12:01:51] ✅ 新北市偵察 完成
+[2026-03-26 12:01:51] 開始執行: RSS 產生
+[2026-03-26 12:02:10] ✅ RSS 產生 完成
+[2026-03-26 12:02:10] === 情報偵查報告完成 ===
+[2026-03-26 12:03:01] === 情報偵查報告開始 ===
+[2026-03-26 12:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 12:03:48] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 12:03:48] 開始執行: 新北市偵察
+[2026-03-26 12:04:00] ✅ 新北市偵察 完成
+[2026-03-26 12:04:00] 開始執行: RSS 產生
+[2026-03-26 12:04:18] ✅ RSS 產生 完成
+[2026-03-26 12:04:18] === 情報偵查報告完成 ===
+[2026-03-26 12:03:01] === 情報偵查報告開始 ===
+[2026-03-26 12:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 12:03:48] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 12:03:48] 開始執行: 新北市偵察
+[2026-03-26 12:04:00] ✅ 新北市偵察 完成
+[2026-03-26 12:04:00] 開始執行: RSS 產生
+[2026-03-26 12:04:18] ✅ RSS 產生 完成
+[2026-03-26 12:04:18] === 情報偵查報告完成 ===
+[2026-03-26 13:03:01] === 情報偵查報告開始 ===
+[2026-03-26 13:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 13:03:46] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 13:03:46] 開始執行: 新北市偵察
+[2026-03-26 13:04:12] ✅ 新北市偵察 完成
+[2026-03-26 13:04:12] 開始執行: RSS 產生
+[2026-03-26 13:04:29] ✅ RSS 產生 完成
+[2026-03-26 13:04:29] === 情報偵查報告完成 ===
+[2026-03-26 13:03:01] === 情報偵查報告開始 ===
+[2026-03-26 13:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 13:03:46] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 13:03:46] 開始執行: 新北市偵察
+[2026-03-26 13:04:12] ✅ 新北市偵察 完成
+[2026-03-26 13:04:12] 開始執行: RSS 產生
+[2026-03-26 13:04:29] ✅ RSS 產生 完成
+[2026-03-26 13:04:29] === 情報偵查報告完成 ===
+[2026-03-26 14:03:01] === 情報偵查報告開始 ===
+[2026-03-26 14:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 14:03:31] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 14:03:31] 開始執行: 新北市偵察
+[2026-03-26 14:03:49] ✅ 新北市偵察 完成
+[2026-03-26 14:03:49] 開始執行: RSS 產生
+[2026-03-26 14:04:08] ✅ RSS 產生 完成
+[2026-03-26 14:04:08] === 情報偵查報告完成 ===
+[2026-03-26 14:03:01] === 情報偵查報告開始 ===
+[2026-03-26 14:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 14:03:31] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 14:03:31] 開始執行: 新北市偵察
+[2026-03-26 14:03:49] ✅ 新北市偵察 完成
+[2026-03-26 14:03:49] 開始執行: RSS 產生
+[2026-03-26 14:04:08] ✅ RSS 產生 完成
+[2026-03-26 14:04:08] === 情報偵查報告完成 ===
+[2026-03-26 15:03:01] === 情報偵查報告開始 ===
+[2026-03-26 15:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 15:06:01] ❌ 苗栗/台中/基隆偵察 失敗: Command '['/home/node/.linuxbrew/bin/python3', '/home/node/.openclaw/workspace/external_scout.py']' timed out after 180 seconds
+[2026-03-26 15:06:01] 開始執行: 新北市偵察
+[2026-03-26 15:09:01] ❌ 新北市偵察 失敗: Command '['/home/node/.linuxbrew/bin/python3', '/home/node/.openclaw/workspace/external_scout_ntpc.py']' timed out after 180 seconds
+[2026-03-26 15:09:01] 開始執行: RSS 產生
+[2026-03-26 15:11:14] ✅ RSS 產生 完成
+[2026-03-26 15:11:14] === 情報偵查報告完成 ===
+[2026-03-26 15:03:01] === 情報偵查報告開始 ===
+[2026-03-26 15:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 15:06:01] ❌ 苗栗/台中/基隆偵察 失敗: Command '['/home/node/.linuxbrew/bin/python3', '/home/node/.openclaw/workspace/external_scout.py']' timed out after 180 seconds
+[2026-03-26 15:06:01] 開始執行: 新北市偵察
+[2026-03-26 15:09:01] ❌ 新北市偵察 失敗: Command '['/home/node/.linuxbrew/bin/python3', '/home/node/.openclaw/workspace/external_scout_ntpc.py']' timed out after 180 seconds
+[2026-03-26 15:09:01] 開始執行: RSS 產生
+[2026-03-26 15:11:14] ✅ RSS 產生 完成
+[2026-03-26 15:11:14] === 情報偵查報告完成 ===
+[2026-03-26 16:03:01] === 情報偵查報告開始 ===
+[2026-03-26 16:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 16:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 16:03:28] 開始執行: 新北市偵察
+[2026-03-26 16:03:44] ✅ 新北市偵察 完成
+[2026-03-26 16:03:44] 開始執行: RSS 產生
+[2026-03-26 16:04:02] ✅ RSS 產生 完成
+[2026-03-26 16:04:02] === 情報偵查報告完成 ===
+[2026-03-26 16:03:01] === 情報偵查報告開始 ===
+[2026-03-26 16:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 16:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 16:03:28] 開始執行: 新北市偵察
+[2026-03-26 16:03:44] ✅ 新北市偵察 完成
+[2026-03-26 16:03:44] 開始執行: RSS 產生
+[2026-03-26 16:04:02] ✅ RSS 產生 完成
+[2026-03-26 16:04:02] === 情報偵查報告完成 ===
+[2026-03-26 17:03:01] === 情報偵查報告開始 ===
+[2026-03-26 17:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 17:03:24] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 17:03:24] 開始執行: 新北市偵察
+[2026-03-26 17:03:40] ✅ 新北市偵察 完成
+[2026-03-26 17:03:40] 開始執行: RSS 產生
+[2026-03-26 17:03:59] ✅ RSS 產生 完成
+[2026-03-26 17:03:59] === 情報偵查報告完成 ===
+[2026-03-26 17:03:01] === 情報偵查報告開始 ===
+[2026-03-26 17:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 17:03:24] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 17:03:24] 開始執行: 新北市偵察
+[2026-03-26 17:03:40] ✅ 新北市偵察 完成
+[2026-03-26 17:03:40] 開始執行: RSS 產生
+[2026-03-26 17:03:59] ✅ RSS 產生 完成
+[2026-03-26 17:03:59] === 情報偵查報告完成 ===
+[2026-03-26 18:03:01] === 情報偵查報告開始 ===
+[2026-03-26 18:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 18:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 18:03:28] 開始執行: 新北市偵察
+[2026-03-26 18:03:46] ✅ 新北市偵察 完成
+[2026-03-26 18:03:46] 開始執行: RSS 產生
+[2026-03-26 18:04:06] ✅ RSS 產生 完成
+[2026-03-26 18:04:06] === 情報偵查報告完成 ===
+[2026-03-26 18:03:01] === 情報偵查報告開始 ===
+[2026-03-26 18:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 18:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 18:03:28] 開始執行: 新北市偵察
+[2026-03-26 18:03:46] ✅ 新北市偵察 完成
+[2026-03-26 18:03:46] 開始執行: RSS 產生
+[2026-03-26 18:04:06] ✅ RSS 產生 完成
+[2026-03-26 18:04:06] === 情報偵查報告完成 ===
+[2026-03-26 19:03:01] === 情報偵查報告開始 ===
+[2026-03-26 19:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 19:03:26] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 19:03:26] 開始執行: 新北市偵察
+[2026-03-26 19:03:41] ✅ 新北市偵察 完成
+[2026-03-26 19:03:41] 開始執行: RSS 產生
+[2026-03-26 19:04:00] ✅ RSS 產生 完成
+[2026-03-26 19:04:00] === 情報偵查報告完成 ===
+[2026-03-26 19:03:01] === 情報偵查報告開始 ===
+[2026-03-26 19:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 19:03:26] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 19:03:26] 開始執行: 新北市偵察
+[2026-03-26 19:03:41] ✅ 新北市偵察 完成
+[2026-03-26 19:03:41] 開始執行: RSS 產生
+[2026-03-26 19:04:00] ✅ RSS 產生 完成
+[2026-03-26 19:04:00] === 情報偵查報告完成 ===
+[2026-03-26 20:03:01] === 情報偵查報告開始 ===
+[2026-03-26 20:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 20:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 20:03:28] 開始執行: 新北市偵察
+[2026-03-26 20:03:42] ✅ 新北市偵察 完成
+[2026-03-26 20:03:42] 開始執行: RSS 產生
+[2026-03-26 20:04:00] ✅ RSS 產生 完成
+[2026-03-26 20:04:00] === 情報偵查報告完成 ===
+[2026-03-26 20:03:01] === 情報偵查報告開始 ===
+[2026-03-26 20:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 20:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 20:03:28] 開始執行: 新北市偵察
+[2026-03-26 20:03:42] ✅ 新北市偵察 完成
+[2026-03-26 20:03:42] 開始執行: RSS 產生
+[2026-03-26 20:04:00] ✅ RSS 產生 完成
+[2026-03-26 20:04:00] === 情報偵查報告完成 ===
+[2026-03-26 21:03:01] === 情報偵查報告開始 ===
+[2026-03-26 21:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 21:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 21:03:28] 開始執行: 新北市偵察
+[2026-03-26 21:03:44] ✅ 新北市偵察 完成
+[2026-03-26 21:03:44] 開始執行: RSS 產生
+[2026-03-26 21:04:05] ✅ RSS 產生 完成
+[2026-03-26 21:04:05] === 情報偵查報告完成 ===
+[2026-03-26 21:03:01] === 情報偵查報告開始 ===
+[2026-03-26 21:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 21:03:28] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 21:03:28] 開始執行: 新北市偵察
+[2026-03-26 21:03:44] ✅ 新北市偵察 完成
+[2026-03-26 21:03:44] 開始執行: RSS 產生
+[2026-03-26 21:04:05] ✅ RSS 產生 完成
+[2026-03-26 21:04:05] === 情報偵查報告完成 ===
+[2026-03-26 22:03:01] === 情報偵查報告開始 ===
+[2026-03-26 22:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 22:03:26] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 22:03:26] 開始執行: 新北市偵察
+[2026-03-26 22:03:42] ✅ 新北市偵察 完成
+[2026-03-26 22:03:42] 開始執行: RSS 產生
+[2026-03-26 22:03:59] ✅ RSS 產生 完成
+[2026-03-26 22:03:59] === 情報偵查報告完成 ===
+[2026-03-26 22:03:01] === 情報偵查報告開始 ===
+[2026-03-26 22:03:01] 開始執行: 苗栗/台中/基隆偵察
+[2026-03-26 22:03:26] ✅ 苗栗/台中/基隆偵察 完成
+[2026-03-26 22:03:26] 開始執行: 新北市偵察
+[2026-03-26 22:03:42] ✅ 新北市偵察 完成
+[2026-03-26 22:03:42] 開始執行: RSS 產生
+[2026-03-26 22:03:59] ✅ RSS 產生 完成
+[2026-03-26 22:03:59] === 情報偵查報告完成 ===
+[2026-03-27 06:34:39] === 四合一情報偵查報告開始 ===
+[2026-03-27 06:34:39] 開始執行: scout_miaoli.py (苗栗 RSS)
+[2026-03-27 06:34:39] ✅ scout_miaoli.py (苗栗 RSS) 完成
+[2026-03-27 06:34:39] 開始執行: scout_taichung.py (台中 Web)
+[2026-03-27 06:34:40] ✅ scout_taichung.py (台中 Web) 完成
+[2026-03-27 06:34:40] 開始執行: scout_keelung.py (基隆 Web)
+[2026-03-27 06:34:41] ✅ scout_keelung.py (基隆 Web) 完成
+[2026-03-27 06:34:41] 開始執行: scout_ntpc.py (新北 Web)
+[2026-03-27 06:34:58] ✅ scout_ntpc.py (新北 Web) 完成
+[2026-03-27 06:34:58] 開始執行: RSS 產生器
+[2026-03-27 06:35:15] ✅ RSS 產生器 完成
+[2026-03-27 06:35:15] 執行 Git 推送...

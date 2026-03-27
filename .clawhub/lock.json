@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "rss-generator-skill": {
+      "version": "1.0.0",
+      "installedAt": 1773818522127
+    },
+    "web-scraper-jina": {
+      "version": "1.0.1",
+      "installedAt": 1773819481612
+    },
+    "google-sheets": {
+      "version": "1.0.6",
+      "installedAt": 1773847261355
+    }
+  }
+}

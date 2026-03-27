@@ -1,0 +1,674 @@
+=== RSS 產生器開始 ===
+Thu Mar 26 07:18:01 UTC 2026
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+=== RSS 產生器完成 ===
+=== RSS 產生器開始 ===
+Thu Mar 26 07:48:01 UTC 2026
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+=== RSS 產生器完成 ===
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 367, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 284, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 101, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+Traceback (most recent call last):
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 367, in <module>
+    main()
+    ~~~~^^
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 284, in main
+    all_articles = get_approved_articles()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 101, in get_approved_articles
+    client = get_gs_client()
+  File "/home/node/.openclaw/workspace/rss_generator.py", line 95, in get_gs_client
+    creds_json = json.loads(GOOGLE_SHEETS_CREDENTIALS)
+  File "/home/node/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/json/__init__.py", line 345, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 136 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+
+============================================================
+10 軌 RSS 全能矩陣同步腳本 (GMT+8 + 精密排版)
+============================================================
+
+[1] 全量掃描 Google Sheets 中狀態為 Approved 的文章...
+    找到 130 篇 Approved 文章
+
+[2] 按分類分組並按時間倒序排列...
+    - 地方: 30 篇
+
+[3] 產生並推送 9 個分類 RSS...
+    📰 政治 (news_politics.xml): 0 篇
+       ✅ 推送成功
+    📰 產經 (news_economy.xml): 0 篇
+       ✅ 推送成功
+    📰 地方 (news_local.xml): 30 篇
+       ✅ 推送成功
+    📰 社會 (news_society.xml): 0 篇
+       ✅ 推送成功
+    📰 生活 (news_lifestyle.xml): 0 篇
+       ✅ 推送成功
+    📰 寵物 (news_pets.xml): 0 篇
+       ✅ 推送成功
+    📰 健康 (news_health.xml): 0 篇
+       ✅ 推送成功
+    📰 藝文 (news_culture.xml): 0 篇
+       ✅ 推送成功
+    📰 專欄 (news_column.xml): 0 篇
+       ✅ 推送成功
+
+[4] 產生並推送總匯 RSS...
+    📊 總匯 (news_all.xml): 30 篇
+       ✅ 推送成功
+
+============================================================
+RSS GUID 已修正 - 每篇文章都有獨立原始連結
+============================================================
+
+📋 GitHub RAW 網址清單：
+  ✅ 報新聞Mega NEWS - 政治頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_politics.xml
+  ✅ 報新聞Mega NEWS - 產經頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_economy.xml
+  ✅ 報新聞Mega NEWS - 地方頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_local.xml
+  ✅ 報新聞Mega NEWS - 社會頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_society.xml
+  ✅ 報新聞Mega NEWS - 生活頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_lifestyle.xml
+  ✅ 報新聞Mega NEWS - 寵物頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_pets.xml
+  ✅ 報新聞Mega NEWS - 健康頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_health.xml
+  ✅ 報新聞Mega NEWS - 藝文頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_culture.xml
+  ✅ 報新聞Mega NEWS - 專欄頻道
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_column.xml
+
+  ✅ 報新聞Mega NEWS - 全部總匯
+      https://raw.githubusercontent.com/best161bird-arch/news-hub-rss/main/news_all.xml
+

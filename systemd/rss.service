@@ -1,0 +1,10 @@
+[Unit]
+Description=RSS 產生器 (每小時 07:00-22:00)
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/node/.openclaw/workspace
+EnvironmentFile=/home/node/.openclaw/workspace/.env
+ExecStart=/bin/bash /home/node/.openclaw/workspace/run_rss_cron.sh
+StandardOutput=journal
+StandardError=journal

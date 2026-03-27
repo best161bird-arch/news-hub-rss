@@ -1,0 +1,38 @@
+[Unit]
+Description=RSS 產生器定時器 (每小時 07:00-22:00, 18分 & 48分)
+
+[Timer]
+OnCalendar=*-*-* 07:18:00
+OnCalendar=*-*-* 07:48:00
+OnCalendar=*-*-* 08:18:00
+OnCalendar=*-*-* 08:48:00
+OnCalendar=*-*-* 09:18:00
+OnCalendar=*-*-* 09:48:00
+OnCalendar=*-*-* 10:18:00
+OnCalendar=*-*-* 10:48:00
+OnCalendar=*-*-* 11:18:00
+OnCalendar=*-*-* 11:48:00
+OnCalendar=*-*-* 12:18:00
+OnCalendar=*-*-* 12:48:00
+OnCalendar=*-*-* 13:18:00
+OnCalendar=*-*-* 13:48:00
+OnCalendar=*-*-* 14:18:00
+OnCalendar=*-*-* 14:48:00
+OnCalendar=*-*-* 15:18:00
+OnCalendar=*-*-* 15:48:00
+OnCalendar=*-*-* 16:18:00
+OnCalendar=*-*-* 16:48:00
+OnCalendar=*-*-* 17:18:00
+OnCalendar=*-*-* 17:48:00
+OnCalendar=*-*-* 18:18:00
+OnCalendar=*-*-* 18:48:00
+OnCalendar=*-*-* 19:18:00
+OnCalendar=*-*-* 19:48:00
+OnCalendar=*-*-* 20:18:00
+OnCalendar=*-*-* 20:48:00
+OnCalendar=*-*-* 21:18:00
+OnCalendar=*-*-* 21:48:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
