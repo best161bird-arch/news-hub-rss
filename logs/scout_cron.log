@@ -592,3 +592,23 @@ error: failed to push some refs to 'origin'
 [2026-03-27 06:35:51] 開始執行: RSS 產生器
 [2026-03-27 06:36:06] ✅ RSS 產生器 完成
 [2026-03-27 06:36:06] 執行 Git 推送...
+[2026-03-27 06:36:07] ❌ Git 推送失敗: fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+[2026-03-27 06:36:07] ⚠️ 缺少 Telegram 設定
+[2026-03-27 06:36:07] === 四合一情報偵查報告完成 ===
+[2026-03-27 06:37:56] === 四合一情報偵查報告開始 ===
+[2026-03-27 06:37:56] 開始執行: scout_miaoli.py (苗栗 RSS)
+[2026-03-27 06:37:58] ✅ scout_miaoli.py (苗栗 RSS) 完成
+[2026-03-27 06:37:58] 開始執行: scout_taichung.py (台中 Web)
+[2026-03-27 06:37:59] ✅ scout_taichung.py (台中 Web) 完成
+[2026-03-27 06:37:59] 開始執行: scout_keelung.py (基隆 Web)
+[2026-03-27 06:38:00] ✅ scout_keelung.py (基隆 Web) 完成
+[2026-03-27 06:38:00] 開始執行: scout_ntpc.py (新北 Web)
+[2026-03-27 06:38:14] ✅ scout_ntpc.py (新北 Web) 完成
+[2026-03-27 06:38:14] 開始執行: RSS 產生器
+[2026-03-27 06:38:30] ✅ RSS 產生器 完成
+[2026-03-27 06:38:30] 執行 Git 推送...
